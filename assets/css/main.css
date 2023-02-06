@@ -3351,13 +3351,16 @@ input, select, textarea {
 
 			#header .logo span {
 				display: none;
+				white-space: normal;
+				word-wrap: break-word;
 			}
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
 				padding-right: 0 !important;
 				text-indent: 5em;
-				white-space: nowrap;
+				white-space: normal;
+				word-wrap: break-word;
 				width: 5em;
 			}
 
