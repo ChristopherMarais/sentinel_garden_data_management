@@ -3128,6 +3128,8 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		white-space: normal;
+		word-wrap: break-word;
 	}
 
 		#header .logo {
@@ -3351,16 +3353,13 @@ input, select, textarea {
 
 			#header .logo span {
 				display: none;
-				white-space: normal;
-				word-wrap: break-word;
 			}
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
 				padding-right: 0 !important;
 				text-indent: 5em;
-				white-space: normal;
-				word-wrap: break-word;
+				white-space: nowrap;
 				width: 5em;
 			}
 
