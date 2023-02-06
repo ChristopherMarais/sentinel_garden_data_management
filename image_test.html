@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .fullscreen-bg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+    }
+    
+    .fullscreen-bg__video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="fullscreen-bg">
+    <img src="images/pic01.jpg" alt="Your Image" class="fullscreen-bg__video">
+  </div>
+</body>
+</html>
